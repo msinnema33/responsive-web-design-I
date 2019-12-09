@@ -1,6 +1,6 @@
                         * {
                             box-sizing: border-box;
-                            border: 1px solid red;
+                            /*border: 1px solid red;*/
                         }
                         
                         html,
@@ -22,7 +22,7 @@
                         .container {
                             width: 88%;
                             margin: auto;
-                            border: 1px solid red;
+                            /*border: 1px solid red; */
                         }
                         /* header content */
                         
@@ -266,6 +266,12 @@
                             .head-main img {
                                 display: none;
                             }
+                            .svc-offer {
+                                width: 100%;
+                            }
+                            .services-info-img {
+                                display: none;
+                            }
                         }
                         
                         @media(max-width: 500px) {
@@ -309,8 +315,14 @@
                             .vision {
                                 width: 100%;
                             }
-                            .about {
+                            .svc-offer {
                                 width: 100%;
+                            }
+                            .services-info-img {
+                                display: none;
+                            }
+                            .svc-main {
+                                flex-direction: column;
                             }
                         }
                         /*---------------------media queries-------^^^^^^^^^^^^^^^^^^^-------*/
